@@ -1,0 +1,208 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /* outline: 1px dotted red; */
+}
+
+.container {
+    height: 500px;
+    width: 970px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+/* Top Container */
+.top {
+    height: 50px;
+    width: 950px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.top h1 {
+    width: 500px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.top h2 {
+    display: inline-block;
+    text-align: right;
+}
+
+/* Middle Container */
+/* Bio */
+.middle {
+    height: 1059px;
+    width: 930px;
+    background-image: linear-gradient(to bottom right,black, #511845);
+    padding: 20px;
+}
+
+.about img {
+    width: 385px;
+    border: 4px solid lightgray;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.bio {
+    height: 261.28px;
+    width: 500px;
+    background-image: linear-gradient(to right, white, #bab2be);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bio h3 {
+    height: 22px;
+    width: 490px;
+    background-image: radial-gradient(#6e5773, #bab2be);
+    color: white;
+    padding: 5px;
+
+}
+
+.bio p{
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+
+.bio a {
+    padding: 8px;
+}
+
+/* Middle Container*/
+/* Project */
+
+.project {
+    padding: 10px auto;
+    margin-top: 30px;
+}
+
+.project .la-mode, .family, .fiveEleven {
+    height: 620px;
+    width: 300px;
+    background-image: linear-gradient(to right, white, #bab2be);
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 7px;
+}
+
+.project h3 {
+    height: 22px;
+    width: 290px;
+    background-image: radial-gradient(#6e5773, #bab2be);
+    color: white;
+    padding: 5px;
+}
+
+.project .main-image {
+    width: 300px;
+}
+
+.project h4 {
+    height: 22px;
+    width: 290px;
+    background-image: radial-gradient(#6e5773, #bab2be);
+    color: white;
+    padding: 5px;
+    margin-bottom: 15px;
+
+}
+
+/* Why will this not aply to all three "tech" icon sections? */
+/* .project .tech {
+        width: 48px;
+        display: inline-block;
+} */
+
+.project a {
+    background-color: #216353;
+    color: white;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px 90px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+ 
+/* Middle Container*/
+/* Project */
+/* la-mode*/
+
+.la-mode p {
+    padding: 5px;
+    margin-bottom: 75px;
+}
+
+.tech1 img {
+    width: 48px;
+    display: inline-block;
+}
+
+/* Middle Container*/
+/* Project */
+/* Family Contacts */
+
+.family p {
+    padding: 5px;
+    margin-bottom: 57px;
+}
+
+.tech2 img {
+    width: 48px;
+    display: inline-block;
+}
+
+.family a {
+    background-color: #216353;
+    color: white;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px 85px;
+    height: 20px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+ 
+
+/* Middle Container*/
+/* Project */
+/* fiveEleven */
+
+.fiveEleven p {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.tech3 img {
+    width: 48px;
+    display: inline-block;
+}
+
+
+/* Bottom */
+
+.bottom {
+    height: 50px;
+    width: 950px;
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+.bottom img {
+    width: 15px;
+}
+
+.bottom ul li {
+    color: black;
+    display: inline-block;
+    margin: 0px auto;
+}
